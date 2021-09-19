@@ -7,7 +7,9 @@
 
 import exquisiteOM as ex
 
+length_in_sentences = 20
+
 maketext = ex.Paragraph()
-bodytext = maketext.get(20)
+bodytext = maketext.get(length_in_sentences)
 
 print(bodytext)
