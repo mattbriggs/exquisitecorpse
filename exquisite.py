@@ -7,7 +7,7 @@
 
 import exquisiteOM as ex
 
-bodytext = ex.Paragraph()
-bodytext = ex.Paragraph.get(20)
+maketext = ex.Paragraph()
+bodytext = maketext.get(20)
 
-print (bodytext)
+print(bodytext)

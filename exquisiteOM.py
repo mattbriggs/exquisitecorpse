@@ -23,16 +23,16 @@ class Paragraph:
     def __init__(self):
         self.paragraph = ""
 
-    def get(self, number=0):
+    def get(self, number=1):
         paragraph = ""
         for i in range(number):
             newsentence = Sentence()
-            newsentence = Sentence.get(self)
+            newsentence = Sentence.get(1)
             paragraph = paragraph + newsentence 
         return paragraph
 
 class Sentence:
-    #Creates a sentnece with a object, verb, direct object.
+    #Creates a sentence with a object, verb, direct object.
     def __init__(self):
         self.subject = Entity()
         self.verb = Action()
